@@ -13,7 +13,12 @@ such as arduino.
 
 ** arduino software
 *** version 1, use one byte of the CAN message data field.
-- Appication note: https://blog.csdn.net/grey_csdn/article/details/107732595
+- Appication note: [[https://blog.csdn.net/grey_csdn/article/details/107732595][printf via CAN with arduino version 1]]
 - my code: arduino_version_01
 - related project: [[https://github.com/pierremolinaro/acan2515][ACAN2515]]
+
+*** version 2, take full use of CAN message data field.
+- Appication note: [[https://blog.csdn.net/grey_csdn/article/details/108329194][printf via CAN with arduino version 2]]
+- my code: arduino_version_02
+
 
