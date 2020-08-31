@@ -9,6 +9,11 @@ hardware. But the good news is that we can choose so many open source hardware
 such as arduino.
 
 ** hardware
-- Here I use arduino UNO with a MCP2515 CAN chip extended with SPI on it. This
-is convenient because we just need an USB cube and no other power supply wire
-is needed.
+- Here I use arduino UNO with a MCP2515 CAN chip extended with SPI on it. This is convenient because we just need an USB cube and no other power supply wire is needed.
+
+** arduino software
+*** version 1, use one byte of the CAN message data field.
+- Appication note: https://blog.csdn.net/grey_csdn/article/details/107732595
+- my code: arduino_version_01
+- related project: [[https://github.com/pierremolinaro/acan2515][ACAN2515]]
+
