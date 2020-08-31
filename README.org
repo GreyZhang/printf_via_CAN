@@ -1,6 +1,6 @@
 * printf via CAN
 ** summary
-- When we design an embebed system we usally use a printf function via UART. 
+- When we design an embedded system we usally use a printf function via UART. 
 Yet, it is difficult to use that function on an automobile ECU because 
 most ECU do not have UART design. Instead, they have CAN! It is really a pity 
 to give up so many tools which are popular on many fields, so we need some 
@@ -24,4 +24,6 @@ such as arduino.
 *** version 3, add CAN baud rate adaption.
 - Appication note: [[https://blog.csdn.net/grey_csdn/article/details/108329213][printf via CAN with arduino which supports CAN baud rate]]
 - my code: arduino_version_03
+
+** embeded software on debug target
 
