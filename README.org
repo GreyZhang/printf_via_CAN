@@ -24,6 +24,7 @@ such as arduino.
 *** version 3, add CAN baud rate adaption.
 - Appication note: [[https://blog.csdn.net/grey_csdn/article/details/108329213][printf via CAN with arduino which supports CAN baud rate]]
 - my code: arduino_version_03
+- UART comands: 250\n, 500\n, 1000\n to set CAN baud rate to 250kps, 500kps and 1000kps.
 
 ** embeded software on debug target
 
