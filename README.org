@@ -1,0 +1,14 @@
+* printf via CAN
+** summary
+- When we design an embebed system we usally use a printf function via UART. 
+Yet, it is difficult to use that function on an automobile ECU because 
+most ECU do not have UART design. Instead, they have CAN! It is really a pity 
+to give up so many tools which are popular on many fields, so we need some 
+function to covert CAN messages into UART. Of course this would need some
+hardware. But the good news is that we can choose so many open source hardware
+such as arduino.
+
+** hardware
+- Here I use arduino UNO with a MCP2515 CAN chip extended with SPI on it. This
+is convenient because we just need an USB cube and no other power supply wire
+is needed.
