@@ -27,4 +27,14 @@ such as arduino.
 - UART comands: 250\n, 500\n, 1000\n to set CAN baud rate to 250kps, 500kps and 1000kps.
 
 ** embeded software on debug target
+*** How to use.
+1. Add all the code to your project.
+2. Replace can_inf_can_tx with your own design.
+3. Call can_lld_printf_init function when is system initialized.
+4. Call debug_lld_can_queue_pop periodically such as 10ms.
+5. Compile and link.
+
+*** use one byte of CAN data field
+- code: can_com_stack_01
+
 
