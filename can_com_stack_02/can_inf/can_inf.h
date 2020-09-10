@@ -1,9 +1,8 @@
 #ifndef CAN_INF_H
 #define CAN_INF_H
 
-#include "typedefs.h"
+#include "stdint.h"
 #include "can_message.h"
-#include "FlexCAN.h"
 
 #define ERR_OK 0
 #define ERR_QUEUE_FULL 1

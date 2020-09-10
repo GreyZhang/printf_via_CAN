@@ -1,4 +1,3 @@
-#include "FlexCAN.h"
 #include "string.h"
 
 /*
