@@ -44,3 +44,5 @@ such as arduino.
 
 *** A better implementation for queue process.
 - code: can_com_stack_03
+- My note here: [[https://greyzhang.blog.csdn.net/article/details/108541758][A better queue implementation]]
+
