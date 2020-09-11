@@ -28,12 +28,12 @@ such as arduino.
 
 ** embeded software on debug target
 *** How to use.
-    - There is an example to use it, check Example01 for detials.
 1. Add all the code to your project.
 2. Replace can_inf_can_tx with your own design.
 3. Call can_lld_printf_init function when is system initialized.
 4. Call debug_lld_can_queue_pop periodically such as 10ms.
 5. Compile and link.
+- There is an example to use it, check Example01 for detials.
 
 *** use one byte of CAN data field
 - code: can_com_stack_01
