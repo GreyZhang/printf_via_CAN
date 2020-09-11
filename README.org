@@ -35,12 +35,12 @@ such as arduino.
 5. Compile and link.
 - There is an example to use it, check Example01 for detials.
 
-*** use one byte of CAN data field
+*** Use one byte of CAN data field
 - code: can_com_stack_01
 
-*** take full use of CAN data field.
+*** Take full use of CAN data field.
 - To port printf function we just need to design our own putc function. It is still right for our design. So how to take full use of CAN message data feild? The answer is the pop function in our code. We can make the compress work during pop action.
 - code: can_com_stack_02
 
-*** A better implementation for queue proces.
+*** A better implementation for queue process.
 - code: can_com_stack_03
