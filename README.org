@@ -28,6 +28,7 @@ such as arduino.
 
 ** embeded software on debug target
 *** How to use.
+    - There is an example to use it, check Example01 for detials.
 1. Add all the code to your project.
 2. Replace can_inf_can_tx with your own design.
 3. Call can_lld_printf_init function when is system initialized.
